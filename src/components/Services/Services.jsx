@@ -9,7 +9,7 @@ const Services = () => {
       <div className='container services__container'>
 <article className='services'>
   <div className='service__head'>
-
+<h3>UI/UX</h3>
   </div>
 </article>
       </div>
