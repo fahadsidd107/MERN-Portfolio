@@ -1,6 +1,5 @@
 import React from 'react'
 import { BsLinkedin, BsGithub, BsTwitter } from 'react-icons/bs'
-
 function headerSocials() {
   return (
     <div className='header__socials'>
