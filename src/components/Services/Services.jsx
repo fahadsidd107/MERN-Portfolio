@@ -1,7 +1,7 @@
 import React from 'react'
 import './Services.css'
 
-const Services = () => {
+const Services = (item) => {
   return (
     <section id='services'>
       <h5>What  I offer</h5>
@@ -14,7 +14,7 @@ const Services = () => {
 </article>
 
 <ul className='service__list'>
-  
+  <ListItem item='Fahad'/>
 </ul>
 
       </div>
@@ -23,4 +23,16 @@ const Services = () => {
   )
 }
 
+
+
+
+export const ListItem =(props,item)=> {
+  return (
+    <div>
+      <li>{props.item}</li>
+    </div>
+  )
+}
+
 export default Services
+
