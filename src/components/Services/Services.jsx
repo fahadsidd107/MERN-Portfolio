@@ -2,7 +2,7 @@ import React from 'react'
 import './Services.css'
 import {BiCheck} from 'react-icons/bi'
 
-const Services = (item) => {
+const Services = (item,para) => {
   return (
     <section id='services'>
       <h5>What  I offer</h5>
@@ -15,7 +15,7 @@ const Services = (item) => {
 </article>
 
 <ul className='service__list'>
-  <ListItem item='Fahad'/>
+  <ListItem item='Fahad' para="lorem ipsum qsw wfh yhrtew rgrrewr yt rthtr "/>
 </ul>
 
       </div>
@@ -27,10 +27,11 @@ const Services = (item) => {
 
 
 
-export const ListItem =(props,item)=> {
+export const ListItem =(props,para)=> {
   return (
     <div>
       <li><BiCheck className='service__list-icon'/>{props.item}</li>
+      <p>{props.para}</p>
     </div>
   )
 }
