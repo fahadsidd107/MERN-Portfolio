@@ -13,7 +13,9 @@ const Services = () => {
   </div>
 </article>
 
-<ul className='service__list'></ul>
+<ul className='service__list'>
+  
+</ul>
 
       </div>
 
