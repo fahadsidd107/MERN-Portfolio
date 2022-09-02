@@ -30,7 +30,7 @@ const Services = (item) => {
 export const ListItem =(props,item)=> {
   return (
     <div>
-      <li>{props.item}</li>
+      <li><BiCheck className='service__list-icon'/>{props.item}</li>
     </div>
   )
 }
