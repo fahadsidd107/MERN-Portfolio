@@ -8,6 +8,23 @@ const Services = (para) => {
       <h5>What  I offer</h5>
       <h2>Services</h2>
       <div className='container services__container'>
+
+
+      <article className='services'>
+  <div className='service__head'>
+<h3>UI/UX Design</h3>
+  </div>
+  <ListItem para="lorem ipsum qsw wfh yhrtew rgrrewr yt rthtr "/>
+  <ListItem para="lorem ipsum qsw wfh yhrtew rgrrewr yt rthtr "/>
+  <ListItem para="lorem ipsum qsw wfh yhrtew rgrrewr yt rthtr "/>
+  <ListItem para="lorem ipsum qsw wfh yhrtew rgrrewr yt rthtr "/>
+  <ListItem para="lorem ipsum qsw wfh yhrtew rgrrewr yt rthtr "/>
+  <ListItem para="lorem ipsum qsw wfh yhrtew rgrrewr yt rthtr "/>
+  <ListItem para="lorem ipsum qsw wfh yhrtew rgrrewr yt rthtr "/>
+  </article> 
+{/* End of UI/UX */}
+
+
       <article className='services'>
   <div className='service__head'>
 <h3>UI/UX Design</h3>
