@@ -2,13 +2,25 @@ import React from 'react'
 import './Services.css'
 import {BiCheck} from 'react-icons/bi'
 
-const Services = (head,para) => {
+const Services = (para) => {
   return (
     <section id='services'>
       <h5>What  I offer</h5>
       <h2>Services</h2>
       <div className='container services__container'>
-  <ListItem head='UI/UX Design' para="lorem ipsum qsw wfh yhrtew rgrrewr yt rthtr "/>
+      <article className='services'>
+  <div className='service__head'>
+<h3>UI/UX Design</h3>
+  </div>
+</article>
+  <ListItem para="lorem ipsum qsw wfh yhrtew rgrrewr yt rthtr "/>
+  <ListItem para="lorem ipsum qsw wfh yhrtew rgrrewr yt rthtr "/>
+  <ListItem para="lorem ipsum qsw wfh yhrtew rgrrewr yt rthtr "/>
+  <ListItem para="lorem ipsum qsw wfh yhrtew rgrrewr yt rthtr "/>
+  <ListItem para="lorem ipsum qsw wfh yhrtew rgrrewr yt rthtr "/>
+  <ListItem para="lorem ipsum qsw wfh yhrtew rgrrewr yt rthtr "/>
+  <ListItem para="lorem ipsum qsw wfh yhrtew rgrrewr yt rthtr "/>
+  
       </div>
     </section>
   )
@@ -17,18 +29,12 @@ const Services = (head,para) => {
 
 
 
-export const ListItem =(props,para,head)=> {
+export const ListItem =(props,para)=> {
   return (
     <div>
-    <article className='services'>
-  <div className='service__head'>
-<h3>{props.head}</h3>
-  </div>
-</article>
 <ul className='service__list'>
       <li><BiCheck className='service__list-icon'/><p>{props.para}</p></li>
-</ul>
-      
+</ul>   
     </div>
   )
 }
