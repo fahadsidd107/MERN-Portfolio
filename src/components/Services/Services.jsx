@@ -11,7 +11,7 @@ const Services = (head,para) => {
 
 
 
-  <ListItem head='Fahad' para="lorem ipsum qsw wfh yhrtew rgrrewr yt rthtr "/>
+  <ListItem head='UI/UX Design' para="lorem ipsum qsw wfh yhrtew rgrrewr yt rthtr "/>
 
 
       </div>
