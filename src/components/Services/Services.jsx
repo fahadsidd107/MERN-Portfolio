@@ -1,6 +1,6 @@
 import React from 'react'
 import './Services.css'
-import {BiCheck} from 'react-icons/bi'
+import { BiCheck } from 'react-icons/bi'
 
 const Services = (para) => {
   return (
@@ -10,34 +10,34 @@ const Services = (para) => {
       <div className='container services__container'>
 
 
-      <article className='services'>
-  <div className='service__head'>
-<h3>UI/UX Design</h3>
-  </div>
-  <ListItem para="lorem ipsum qsw wfh yhrtew rgrrewr yt rthtr "/>
-  <ListItem para="lorem ipsum qsw wfh yhrtew rgrrewr yt rthtr "/>
-  <ListItem para="lorem ipsum qsw wfh yhrtew rgrrewr yt rthtr "/>
-  <ListItem para="lorem ipsum qsw wfh yhrtew rgrrewr yt rthtr "/>
-  <ListItem para="lorem ipsum qsw wfh yhrtew rgrrewr yt rthtr "/>
-  <ListItem para="lorem ipsum qsw wfh yhrtew rgrrewr yt rthtr "/>
-  <ListItem para="lorem ipsum qsw wfh yhrtew rgrrewr yt rthtr "/>
-  </article> 
-{/* End of UI/UX */}
+        <article className='services'>
+          <div className='service__head'>
+            <h3>UI/UX Design</h3>
+          </div>
+          <ListItem para="lorem ipsum qsw wfh yhrtew rgrrewr yt rthtr " />
+          <ListItem para="lorem ipsum qsw wfh yhrtew rgrrewr yt rthtr " />
+          <ListItem para="lorem ipsum qsw wfh yhrtew rgrrewr yt rthtr " />
+          <ListItem para="lorem ipsum qsw wfh yhrtew rgrrewr yt rthtr " />
+          <ListItem para="lorem ipsum qsw wfh yhrtew rgrrewr yt rthtr " />
+          <ListItem para="lorem ipsum qsw wfh yhrtew rgrrewr yt rthtr " />
+          <ListItem para="lorem ipsum qsw wfh yhrtew rgrrewr yt rthtr " />
+        </article>
+        {/* End of UI/UX */}
 
 
-      <article className='services'>
-  <div className='service__head'>
-<h3>Web Development</h3>
-  </div>
-  <ListItem para="lorem ipsum qsw wfh yhrtew rgrrewr yt rthtr "/>
-  <ListItem para="lorem ipsum qsw wfh yhrtew rgrrewr yt rthtr "/>
-  <ListItem para="lorem ipsum qsw wfh yhrtew rgrrewr yt rthtr "/>
-  <ListItem para="lorem ipsum qsw wfh yhrtew rgrrewr yt rthtr "/>
-  <ListItem para="lorem ipsum qsw wfh yhrtew rgrrewr yt rthtr "/>
-  <ListItem para="lorem ipsum qsw wfh yhrtew rgrrewr yt rthtr "/>
-  <ListItem para="lorem ipsum qsw wfh yhrtew rgrrewr yt rthtr "/>
-  </article> 
-{/* End of Web Development */}
+        <article className='services'>
+          <div className='service__head'>
+            <h3>Web Development</h3>
+          </div>
+          <ListItem para="lorem ipsum qsw wfh yhrtew rgrrewr yt rthtr " />
+          <ListItem para="lorem ipsum qsw wfh yhrtew rgrrewr yt rthtr " />
+          <ListItem para="lorem ipsum qsw wfh yhrtew rgrrewr yt rthtr " />
+          <ListItem para="lorem ipsum qsw wfh yhrtew rgrrewr yt rthtr " />
+          <ListItem para="lorem ipsum qsw wfh yhrtew rgrrewr yt rthtr " />
+          <ListItem para="lorem ipsum qsw wfh yhrtew rgrrewr yt rthtr " />
+          <ListItem para="lorem ipsum qsw wfh yhrtew rgrrewr yt rthtr " />
+        </article>
+        {/* End of Web Development */}
       </div>
     </section>
   )
@@ -46,12 +46,12 @@ const Services = (para) => {
 
 
 
-export const ListItem =(props,para)=> {
+export const ListItem = (props, para) => {
   return (
     <div>
-<ul className='service__list'>
-      <li><BiCheck className='service__list-icon'/><p>{props.para}</p></li>
-</ul>   
+      <ul className='service__list'>
+        <li><BiCheck className='service__list-icon' /><p>{props.para}</p></li>
+      </ul>
     </div>
   )
 }
