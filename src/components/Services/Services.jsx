@@ -8,12 +8,7 @@ const Services = (head,para) => {
       <h5>What  I offer</h5>
       <h2>Services</h2>
       <div className='container services__container'>
-
-
-
   <ListItem head='UI/UX Design' para="lorem ipsum qsw wfh yhrtew rgrrewr yt rthtr "/>
-
-
       </div>
 
     </section>
