@@ -11,7 +11,7 @@ const Services = (item,para) => {
 
 
 
-  <ListItem item='Fahad' para="lorem ipsum qsw wfh yhrtew rgrrewr yt rthtr "/>
+  <ListItem head='Fahad' para="lorem ipsum qsw wfh yhrtew rgrrewr yt rthtr "/>
 
 
       </div>
@@ -28,7 +28,7 @@ export const ListItem =(props,para,head)=> {
     <div>
     <article className='services'>
   <div className='service__head'>
-<h3></h3>
+<h3>{props.head}</h3>
   </div>
 </article>
 <ul className='service__list'>
