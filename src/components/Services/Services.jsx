@@ -27,7 +27,7 @@ const Services = (para) => {
 
       <article className='services'>
   <div className='service__head'>
-<h3>UI/UX Design</h3>
+<h3>Web Development</h3>
   </div>
   <ListItem para="lorem ipsum qsw wfh yhrtew rgrrewr yt rthtr "/>
   <ListItem para="lorem ipsum qsw wfh yhrtew rgrrewr yt rthtr "/>
@@ -37,7 +37,7 @@ const Services = (para) => {
   <ListItem para="lorem ipsum qsw wfh yhrtew rgrrewr yt rthtr "/>
   <ListItem para="lorem ipsum qsw wfh yhrtew rgrrewr yt rthtr "/>
   </article> 
-{/* End of UI/UX */}
+{/* End of Web Development */}
       </div>
     </section>
   )
