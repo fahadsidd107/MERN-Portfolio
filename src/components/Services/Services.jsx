@@ -8,15 +8,11 @@ const Services = (item,para) => {
       <h5>What  I offer</h5>
       <h2>Services</h2>
       <div className='container services__container'>
-<article className='services'>
-  <div className='service__head'>
-<h3>UI/UX Design</h3>
-  </div>
-</article>
 
-<ul className='service__list'>
+
+
   <ListItem item='Fahad' para="lorem ipsum qsw wfh yhrtew rgrrewr yt rthtr "/>
-</ul>
+
 
       </div>
 
@@ -27,11 +23,18 @@ const Services = (item,para) => {
 
 
 
-export const ListItem =(props,para)=> {
+export const ListItem =(props,para,head)=> {
   return (
     <div>
-      <li><BiCheck className='service__list-icon'/>{props.item}</li>
-      <p>{props.para}</p>
+    <article className='services'>
+  <div className='service__head'>
+<h3></h3>
+  </div>
+</article>
+<ul className='service__list'>
+      <li><BiCheck className='service__list-icon'/><p>{props.para}</p></li>
+</ul>
+      
     </div>
   )
 }
