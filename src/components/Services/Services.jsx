@@ -2,7 +2,7 @@ import React from 'react'
 import './Services.css'
 import {BiCheck} from 'react-icons/bi'
 
-const Services = (item,para) => {
+const Services = (head,para) => {
   return (
     <section id='services'>
       <h5>What  I offer</h5>
