@@ -10,7 +10,6 @@ const Services = (head,para) => {
       <div className='container services__container'>
   <ListItem head='UI/UX Design' para="lorem ipsum qsw wfh yhrtew rgrrewr yt rthtr "/>
       </div>
-
     </section>
   )
 }
