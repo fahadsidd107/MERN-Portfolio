@@ -38,6 +38,21 @@ const Services = (para) => {
           <ListItem para="lorem ipsum qsw wfh yhrtew rgrrewr yt rthtr " />
         </article>
         {/* End of Web Development */}
+
+
+        <article className='services'>
+          <div className='service__head'>
+            <h3>Web Development</h3>
+          </div>
+          <ListItem para="lorem ipsum qsw wfh yhrtew rgrrewr yt rthtr " />
+          <ListItem para="lorem ipsum qsw wfh yhrtew rgrrewr yt rthtr " />
+          <ListItem para="lorem ipsum qsw wfh yhrtew rgrrewr yt rthtr " />
+          <ListItem para="lorem ipsum qsw wfh yhrtew rgrrewr yt rthtr " />
+          <ListItem para="lorem ipsum qsw wfh yhrtew rgrrewr yt rthtr " />
+          <ListItem para="lorem ipsum qsw wfh yhrtew rgrrewr yt rthtr " />
+          <ListItem para="lorem ipsum qsw wfh yhrtew rgrrewr yt rthtr " />
+        </article>
+        {/* End of Web Development */}
       </div>
     </section>
   )
