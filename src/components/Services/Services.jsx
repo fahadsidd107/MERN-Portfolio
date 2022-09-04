@@ -42,7 +42,7 @@ const Services = (para) => {
 
         <article className='services'>
           <div className='service__head'>
-            <h3>Web Development</h3>
+            <h3>Content Creation</h3>
           </div>
           <ListItem para="lorem ipsum qsw wfh yhrtew rgrrewr yt rthtr " />
           <ListItem para="lorem ipsum qsw wfh yhrtew rgrrewr yt rthtr " />
