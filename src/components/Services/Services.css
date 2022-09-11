@@ -66,3 +66,9 @@ html {
     gap: 1rem;
     margin-bottom: 0.8rem;
 }
+
+.service__list-icon{
+    color: var(--color-primary);
+    margin-top: 2px;
+    font-size: 40px;
+}
