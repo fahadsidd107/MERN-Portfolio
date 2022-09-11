@@ -65,7 +65,7 @@ html {
 
 .service__list li {
     display: flex;
-    gap: -20rem;
+    gap: 1rem;
     margin-bottom: 0.8rem;
 }
 
