@@ -53,23 +53,23 @@ html {
 }
 
 .service__head h3 {
-   color: var(--color-bg); 
-   font-size: 1rem;
-   text-align: center;
+    color: var(--color-bg);
+    font-size: 1rem;
+    text-align: center;
 }
 
-.service__list{
+.service__list {
     padding: 2rem;
     font-size: 16px;
 }
 
-.service__list li{
+.service__list li {
     display: flex;
     gap: -20rem;
     margin-bottom: 0.8rem;
 }
 
-.service__list-icon{
+.service__list-icon {
     color: var(--color-primary);
     margin-top: 2px;
     font-size: 40px;
