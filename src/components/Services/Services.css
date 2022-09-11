@@ -36,6 +36,7 @@ html {
     border: 2px solid var(--color-primary);
     height: fit-content;
     transition: var(--transition);
+    padding: 0.5rem;
 }
 
 .service:hover {
@@ -64,7 +65,7 @@ html {
 
 .service__list li{
     display: flex;
-    gap: 1rem;
+    gap: -20rem;
     margin-bottom: 0.8rem;
 }
 
