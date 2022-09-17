@@ -31,8 +31,7 @@ const Services = (para) => {
           <ListItem para="lorem ipsum qsw wfh yhrtew rgrrewr yt rthtr " />
           <ListItem para="lorem ipsum qsw wfh yhrtew rgrrewr yt rthtr " />
           <ListItem para="lorem ipsum qsw wfh yhrtew rgrrewr yt rthtr " />
-          <ListItem para="lorem ipsum qsw wfh yhrtew rgrrewr yt rthtr " />
-          <ListItem para="lorem ipsum qsw wfh yhrtew rgrrewr yt rthtr " />
+ 
         </article>
         {/* End of Web Development */}
 
