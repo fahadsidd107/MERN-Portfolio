@@ -74,3 +74,7 @@ html {
     margin-top: 2px;
     font-size: 40px;
 }
+
+.service__head p {
+    font-size: 0.9rem;
+}
