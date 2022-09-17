@@ -81,12 +81,8 @@ html {
 
 /***************************MEDIA QEUERY (MEDIUM DEVICES)************************************/
 
-@media screen and (max-width: 1024px) {
-
-}
+@media screen and (max-width: 1024px) {}
 
 /***************************MEDIA QEUERY (SMALL DEVICES)************************************/
 
-@media screen and (max-width: 600px) {
-
-}
+@media screen and (max-width: 600px) {}
