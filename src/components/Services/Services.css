@@ -88,11 +88,5 @@ html {
 /***************************MEDIA QEUERY (SMALL DEVICES)************************************/
 
 @media screen and (max-width: 600px) {
-    .container {
-        width: var(--container-width-sm);
-    }
 
-    .section>h2 {
-        margin-bottom: 2rem;
-    }
 }
