@@ -6,6 +6,9 @@ const Portfolio = () => {
     <section id='portfolio'>
    <h5>My Recent Work</h5>
    <h2>Porfolio</h2>
+   <div className='container portfolio_container'>
+    
+   </div>
     </section>
   )
 }
