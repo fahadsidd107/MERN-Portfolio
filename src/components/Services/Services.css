@@ -87,7 +87,7 @@ html {
         gap: 2rem;
     }
     .service{
-        
+        height: auto;
     }
 }
 
