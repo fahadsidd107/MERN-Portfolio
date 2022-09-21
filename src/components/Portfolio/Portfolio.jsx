@@ -10,6 +10,7 @@ const Portfolio = () => {
         <article className='portfolio_item'>
           <div className='portfolio_item_image'>
             <h3>This is postfolio item title</h3>
+            <a href='https://github.com/fahadsidd107'>Github</a>
           </div>
         </article>
       </div>
