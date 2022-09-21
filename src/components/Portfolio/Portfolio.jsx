@@ -9,7 +9,7 @@ const Portfolio = () => {
       <div className='container portfolio_container'>
         <article className='portfolio_item'>
 <div className='portfolio_item_image'>
-
+<h3>This is postfolio item title</h3>
 </div>
         </article>
       </div>
