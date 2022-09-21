@@ -8,9 +8,9 @@ const Portfolio = () => {
       <h2>Porfolio</h2>
       <div className='container portfolio_container'>
         <article className='portfolio_item'>
-<div className='portfolio_item_image'>
-<h3>This is postfolio item title</h3>
-</div>
+          <div className='portfolio_item_image'>
+            <h3>This is postfolio item title</h3>
+          </div>
         </article>
       </div>
     </section>
