@@ -8,7 +8,9 @@ const Portfolio = () => {
       <h2>Porfolio</h2>
       <div className='container portfolio_container'>
         <article className='portfolio_item'>
+<div className='portfolio_item_image'>
 
+</div>
         </article>
       </div>
     </section>
