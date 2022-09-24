@@ -15,6 +15,7 @@ const Portfolio = () => {
       <div className='container portfolio_container'>
         <article className='portfolio_item'>
           <div className='portfolio_item_image'>
+          <img src={IMG1} alt="IMG1"/>
           </div>
           <h3>This is postfolio item title</h3>
           <a href='https://github.com/fahadsidd107' className='btn' target='_blank'>Github</a>
