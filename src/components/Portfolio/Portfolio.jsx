@@ -68,7 +68,7 @@ const Portfolio = () => {
         </article>
         <article className='portfolio_item'>
           <div className='portfolio_item_image'>
-            <img src={IMG1} alt="IMG1" />
+            <img src={IMG6} alt="IMG6" />
           </div>
           <h3>This is postfolio item title</h3>
           <a href='https://github.com/fahadsidd107' className='btn' target='_blank'>Github</a>
