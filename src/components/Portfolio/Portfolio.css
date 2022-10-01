@@ -11,7 +11,6 @@
     --container-width-md: 86%;
     --container-width-sm: 90%;
 }
-
 .portfolio_container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
