@@ -81,15 +81,14 @@ const Portfolio = () => {
   )
 }
 
-export default Portfolio
 
 
-import React from 'react'
 
-function Portfolio() {
+function Article() {
   return (
     
   )
 }
 
+export default Article
 export default Portfolio
