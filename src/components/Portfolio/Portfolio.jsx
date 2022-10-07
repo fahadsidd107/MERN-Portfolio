@@ -82,3 +82,14 @@ const Portfolio = () => {
 }
 
 export default Portfolio
+
+
+import React from 'react'
+
+function Portfolio() {
+  return (
+    
+  )
+}
+
+export default Portfolio
