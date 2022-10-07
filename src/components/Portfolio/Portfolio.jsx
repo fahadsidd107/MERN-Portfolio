@@ -90,5 +90,5 @@ function Article() {
   )
 }
 
-export default Article
+
 export default Portfolio
