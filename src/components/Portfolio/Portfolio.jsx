@@ -90,7 +90,7 @@ function Article({props,image,title,github,demo}) {
         <img src={props.image} alt="IMG6" />
       </div>
       <h3>{props.title}</h3>
-      <a href='https://github.com/fahadsidd107' className='btn' target='_blank'>Github</a>
+      <a href={props.github} className='btn' target='_blank'>Github</a>
       <a href='https://github.com/fahadsidd107' className='btn btn-primary' target='_blank' >Live Demo</a>
     </article>
   )
