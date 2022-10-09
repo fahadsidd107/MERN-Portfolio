@@ -87,7 +87,7 @@ function Article({props,image,title,github,demo}) {
   return (
     <article className='portfolio_item'>
       <div className='portfolio_item_image'>
-        <img src={IMG6} alt="IMG6" />
+        <img src={props.image} alt="IMG6" />
       </div>
       <h3>This is postfolio item title</h3>
       <a href='https://github.com/fahadsidd107' className='btn' target='_blank'>Github</a>
