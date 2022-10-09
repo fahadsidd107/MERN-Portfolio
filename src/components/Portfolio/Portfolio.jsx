@@ -91,7 +91,7 @@ function Article({props,image,title,github,demo}) {
       </div>
       <h3>{props.title}</h3>
       <a href={props.github} className='btn' target='_blank'>Github</a>
-      <a href='https://github.com/fahadsidd107' className='btn btn-primary' target='_blank' >Live Demo</a>
+      <a href={props.demo} className='btn btn-primary' target='_blank' >Live Demo</a>
     </article>
   )
 }
