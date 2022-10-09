@@ -79,7 +79,7 @@ function Article({poster,title,github,demo}) {
   return (
     <article className='portfolio_item'>
       <div className='portfolio_item_image'>
-        <img src={poster} alt="IMG6" />
+        <img src={poster} alt="IMG1" />
       </div>
       <h3>{title}</h3>
       <a href={github} className='btn' target='_blank'>Github</a>
