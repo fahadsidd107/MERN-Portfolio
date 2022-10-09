@@ -23,6 +23,7 @@ const Portfolio = () => {
           <a href='https://github.com/fahadsidd107' className='btn btn-primary' target='_blank' >Live Demo</a>
 
         </article>
+        <Article image={IMG1} title='This is postfolio item title' />
         <article className='portfolio_item'>
           <div className='portfolio_item_image'>
             <img src={IMG1} alt="IMG1" />
