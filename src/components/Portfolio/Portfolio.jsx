@@ -17,7 +17,7 @@ const Portfolio = () => {
         <Article image={IMG1} poster='Suiiii' github='https://github.com/fahadsidd107' demo='https://github.com/fahadsidd107' />
         <Article image={IMG2} poster='Suiiii' github='https://github.com/fahadsidd107' demo='https://github.com/fahadsidd107' />
         <Article image={IMG3} poster='Suiiii' github='https://github.com/fahadsidd107' demo='https://github.com/fahadsidd107' />
-        <Article image={IMG3} poster='Suiiii' github='https://github.com/fahadsidd107' demo='https://github.com/fahadsidd107' />
+        <Article image={IMG4} poster='Suiiii' github='https://github.com/fahadsidd107' demo='https://github.com/fahadsidd107' />
         <article className='portfolio_item'>
           <div className='portfolio_item_image'>
             <img src={IMG2} alt="IMG2" />
