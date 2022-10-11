@@ -15,14 +15,7 @@ const Portfolio = () => {
       <h2>Porfolio</h2>
       <div className='container portfolio_container'>
         <Article image={IMG1} poster='Suiiii' github='https://github.com/fahadsidd107' demo='https://github.com/fahadsidd107' />
-        <article className='portfolio_item'>
-          <div className='portfolio_item_image'>
-            <img src={IMG1} alt="IMG1" />
-          </div>
-          <h3>This is postfolio item title</h3>
-          <a href='https://github.com/fahadsidd107' className='btn' target='_blank'>Github</a>
-          <a href='https://github.com/fahadsidd107' className='btn btn-primary' target='_blank' >Live Demo</a>
-        </article>
+   
         <article className='portfolio_item'>
           <div className='portfolio_item_image'>
             <img src={IMG2} alt="IMG2" />
@@ -75,7 +68,7 @@ const Portfolio = () => {
 
 
 
-function Article({poster,title,github,demo}) {
+function Article({ poster, title, github, demo }) {
   return (
     <article className='portfolio_item'>
       <div className='portfolio_item_image'>
