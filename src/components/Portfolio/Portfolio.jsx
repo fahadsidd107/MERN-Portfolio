@@ -20,15 +20,10 @@ const Portfolio = () => {
         <Article image={IMG4} poster='Suiiii' github='https://github.com/fahadsidd107' demo='https://github.com/fahadsidd107' />
         <Article image={IMG5} poster='Suiiii' github='https://github.com/fahadsidd107' demo='https://github.com/fahadsidd107' />
         <Article image={IMG6} poster='Suiiii' github='https://github.com/fahadsidd107' demo='https://github.com/fahadsidd107' />
-
-
       </div>
     </section>
   )
 }
-
-
-
 
 function Article({ props }) {
   return (
@@ -38,6 +33,9 @@ function Article({ props }) {
           <img src={props.poster} alt="IMG1" />
         </div>
         <h3>{props.title}</h3>
+        <div className='portfolio_item_cta'>
+    
+        </div>
         <a href={props.github} className='btn' target='_blank' rel="noreferrer" >Github</a>
         <a href={props.demo} className='btn btn-primary' target='_blank' rel="noreferrer" >Live Demo</a>
       </article>
