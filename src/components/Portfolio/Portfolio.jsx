@@ -35,9 +35,9 @@ function Article({ props }) {
         <h3>{props.title}</h3>
         <div className='portfolio_item_cta'>
     
-        </div>
         <a href={props.github} className='btn' target='_blank' rel="noreferrer" >Github</a>
         <a href={props.demo} className='btn btn-primary' target='_blank' rel="noreferrer" >Live Demo</a>
+        </div>
       </article>
     </>
   )
