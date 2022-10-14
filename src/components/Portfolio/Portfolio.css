@@ -11,11 +11,13 @@
     --container-width-md: 86%;
     --container-width-sm: 90%;
 }
+
 .portfolio_container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2.5rem
 }
+
 .portfolio_item {
     background-color: #2c2c6c;
     padding: 1.2rem;
@@ -23,6 +25,7 @@
     border: 1px solid transparent;
     transition: all 400ms ease;
 }
+
 .portfolio_item:hover {
     border-color: rgba(77, 181, 255, 0.4);
     background: transparent;
