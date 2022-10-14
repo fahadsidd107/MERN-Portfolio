@@ -20,15 +20,7 @@ const Portfolio = () => {
         <Article image={IMG4} poster='Suiiii' github='https://github.com/fahadsidd107' demo='https://github.com/fahadsidd107' />
         <Article image={IMG5} poster='Suiiii' github='https://github.com/fahadsidd107' demo='https://github.com/fahadsidd107' />
         <Article image={IMG5} poster='Suiiii' github='https://github.com/fahadsidd107' demo='https://github.com/fahadsidd107' />
-        <article className='portfolio_item'>
-          <div className='portfolio_item_image'>
-            <img src={IMG5} alt="IMG5" />
-          </div>
-          <h3>This is postfolio item title</h3>
-          <a href='https://github.com/fahadsidd107' className='btn' target='_blank'>Github</a>
-          <a href='https://github.com/fahadsidd107' className='btn btn-primary' target='_blank' >Live Demo</a>
-
-        </article>
+ 
         <article className='portfolio_item'>
           <div className='portfolio_item_image'>
             <img src={IMG6} alt="IMG6" />
