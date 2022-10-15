@@ -8,7 +8,7 @@ import IMG5 from '../../assets/portfolio5.png'
 import IMG6 from '../../assets/portfolio6.jpg'
 
 
-const Portfolio = () => {
+const Portfolio = ({poster, title, github, demo }) => {
   return (
     <section id='portfolio'>
       <h5>My Recent Work</h5>
@@ -45,13 +45,13 @@ const Portfolio = () => {
 
 
 
-function Article({ poster, title, github, demo }) {
+function Article({props}) {
   return (
     <article className='portfolio_item'>
       <div className='portfolio_item_image'>
-        <img src={poster} alt="IMG1" />
+        <img src={props.poster} alt="IMG1" />
       </div>
-      <h3>{title}</h3>
+      <h3>{props.title}</h3>
       <a href={github} className='btn' target='_blank'>Github</a>
       <a href={demo} className='btn btn-primary' target='_blank' >Live Demo</a>
     </article>
