@@ -47,6 +47,7 @@ const Portfolio = () => {
 
 function Article({ props }) {
   return (
+    <>
     <article className='portfolio_item'>
       <div className='portfolio_item_image'>
         <img src={props.poster} alt="IMG1" />
@@ -55,6 +56,7 @@ function Article({ props }) {
       <a href={props.github} className='btn' target='_blank'>Github</a>
       <a href={props.demo} className='btn btn-primary' target='_blank' >Live Demo</a>
     </article>
+    </>
   )
 }
 
