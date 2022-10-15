@@ -45,7 +45,7 @@ const Portfolio = () => {
 
 
 
-function Article({props}) {
+function Article({ props }) {
   return (
     <article className='portfolio_item'>
       <div className='portfolio_item_image'>
