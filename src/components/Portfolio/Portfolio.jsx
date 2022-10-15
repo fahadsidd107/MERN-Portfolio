@@ -52,7 +52,7 @@ function Article({props}) {
         <img src={props.poster} alt="IMG1" />
       </div>
       <h3>{props.title}</h3>
-      <a href={github} className='btn' target='_blank'>Github</a>
+      <a href={props.github} className='btn' target='_blank'>Github</a>
       <a href={demo} className='btn btn-primary' target='_blank' >Live Demo</a>
     </article>
   )
