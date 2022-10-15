@@ -53,7 +53,7 @@ function Article({props}) {
       </div>
       <h3>{props.title}</h3>
       <a href={props.github} className='btn' target='_blank'>Github</a>
-      <a href={demo} className='btn btn-primary' target='_blank' >Live Demo</a>
+      <a href={props.demo} className='btn btn-primary' target='_blank' >Live Demo</a>
     </article>
   )
 }
